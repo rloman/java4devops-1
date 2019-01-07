@@ -45,6 +45,10 @@ public class Application {
 
         System.out.println(m.getHoursAndMinutes(521));
 
+        Decision d = new Decision();
+
+        System.out.println(d.label(6));
+
 
 
 
