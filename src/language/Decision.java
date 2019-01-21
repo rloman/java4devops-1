@@ -1,4 +1,17 @@
+package language;
+
 public class Decision {
+
+    public static void main(String[] args) {
+        int age = 14;
+        if (age > 12) {
+            System.out.println("U bent 13+");
+            System.out.println("Welkom bij de tiener club");
+        }
+        else {
+            System.out.println("U bent onder de 13 jaar");
+        }
+    }
 
 
     public int max(int a, int b) { // oef: met 3 getallen
@@ -12,9 +25,25 @@ public class Decision {
     }
 
 
-    public String label(int a) {
+    public String label(int age) {
         String result = "";
-        switch (a) {
+        long b = 0L;
+        String firstName = "Tessa";
+        final String choosenName = "Willem";
+        switch (firstName) {
+            case "Tessa":
+
+                break;
+
+            case "Laura":
+                break;
+
+            case choosenName:
+
+                break;
+        }
+
+        switch (age) {
 
             case 0:
             case 1:
