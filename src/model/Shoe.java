@@ -1,3 +1,5 @@
+package model;
+
 public class Shoe {
 
     double price; // instance of field
